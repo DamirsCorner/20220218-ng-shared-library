@@ -20,7 +20,8 @@
     "module": "es2020",
     "lib": ["es2020", "dom"],
     "paths": {
-      "my-lib": ["../my-libs/my-workspace/dist/my-lib"]
+      "my-lib": ["../my-libs/my-workspace/dist/my-lib"],
+      "@angular/*": ["./node_modules/@angular/*"]
     }
   },
   "angularCompilerOptions": {
